@@ -1,14 +1,11 @@
 import os
-
-import numpy as np
-import pandas as pd
 from openpyxl import load_workbook
 
 # 样本路径
-sample_path = r'D:\xlsx_read\样本目录'
+sample_path = r'样本目录'
 
 # 模版路径，注，只能使用xlsx后缀的模版。
-templete_file = r'D:\xlsx_read\模板目录\水样全分析模板.xlsx'
+templete_file = r'模板目录\水样全分析模板.xlsx'
 
 # 输出文件夹下文件名
 def getFile(dir):
